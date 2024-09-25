@@ -1,0 +1,31 @@
+body {
+	font-family: "DM Sans", san-serif;
+}
+
+#brand-logo {
+	text-transform: uppercase;
+	background-color: red;
+	font-weight: 700;
+	font-size: 1.5em;
+	padding: 0.5em;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: gray;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	background-color: magenta;
+}
+
+li {
+	padding: 1em;
+	background-color: turquoise;
+	list-style-type: none;
+	font-weight: 700;
+}
